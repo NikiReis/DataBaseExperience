@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/69018600/192149019-59714005-f3ed-457f-83cb-de8d0422475d.png"  width = "42%" />
+  <img src="https://user-images.githubusercontent.com/69018600/192149019-59714005-f3ed-457f-83cb-de8d0422475d.png"  width = "35%" />
 </p>
 
 # DIO Database Experience 
