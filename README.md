@@ -12,4 +12,4 @@
    Nessa estapa do Bootcamp foram passados três desafios de modelagem de banco de dados, sendo o desafio principal o 'Refinando um Projeto Conceitual de Banco de Dados – E-COMMERCE. Para visualizar todos os três desafios e ter acesso aos arquivos '***mwb**' [acesse esta pasta](https://github.com/NikiReis/DataBaseExperience/tree/main/primeirodesafio). 
    
 ## Segundo Desafio de Projeto
-      Em andamento
+   No segundo desafio de código foi a nossa vez (estudantes/alunos) de criarmos um modelo conceitual, sem a ajuda de professor orientador, com base apenas na narrativa que nos foi passada durante o video de orientação do segundo desafio. Para visualizar o desafio e ter acesso ao arquivo '**mwb**' [acesse esta pasta](https://github.com/NikiReis/DataBaseExperience/tree/main/segundodesafio).
