@@ -11,7 +11,7 @@
 <div>:heavy_check_mark: Executa ;</div>
 <div>:heavy_check_mark: Solicita.</div>
 <div align="Center">
-  <img src="https://user-images.githubusercontent.com/69018600/192169193-0a120f5a-e713-4e25-aa03-72b1fc9b049b.png" width = 75% >
+  <img src="https://user-images.githubusercontent.com/69018600/192169193-0a120f5a-e713-4e25-aa03-72b1fc9b049b.png" width = 95% >
 </div>
 
 # Cenário Universidade
@@ -31,7 +31,7 @@
 <div>:heavy_check_mark: Leciona ;</div>
 <div>:heavy_check_mark: Pré Requisitos.</div>
 <div align="Center">
-  <img src="https://user-images.githubusercontent.com/69018600/192169979-34ff845d-0fbe-4980-b0da-05f4f451507f.png" width = 75% >
+  <img src="https://user-images.githubusercontent.com/69018600/192169979-34ff845d-0fbe-4980-b0da-05f4f451507f.png" width = 95% >
 </div>
 
 
