@@ -55,8 +55,9 @@
 <div>:heavy_check_mark: Pedido_Metodo_Pagamento .</div>
 <div>:heavy_check_mark: Cliente_Metodo_Pagamento .</div>
 <div align="Center">
-  <img src="https://user-images.githubusercontent.com/69018600/198834782-6ecfe196-1000-4d26-a7b6-dfe49d1215c0.png" width = 95% >
+  <img src="https://user-images.githubusercontent.com/69018600/198840598-2a0b5570-da7e-4e59-859b-d5dec98a4834.png" width = 95% >
 </div>
 
 #### **[:heavy_check_mark:] Todos os projetos do 'primeiro desafio de projeto' foram devidamente concluídos**
 
+![Screenshot 2022-10-29 060757]()
