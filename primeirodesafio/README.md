@@ -52,8 +52,10 @@
 <div>:heavy_check_mark: Fornece ;</div>
 <div>:heavy_check_mark: Produto_Estoque ;</div>
 <div>:heavy_check_mark: Produto_Pedido .</div>
+<div>:heavy_check_mark: Pedido_Metodo_Pagamento .</div>
+<div>:heavy_check_mark: Cliente_Metodo_Pagamento .</div>
 <div align="Center">
-  <img src="https://user-images.githubusercontent.com/69018600/192170405-52052602-72e9-4d53-832b-b3f084f910a1.png" width = 75% >
+  <img src="https://user-images.githubusercontent.com/69018600/198833246-fbd19a5a-6ef9-4ce2-a09f-1bceeb7da478.png" width = 95% >
 </div>
 
 #### **[:heavy_check_mark:] Todos os projetos do 'primeiro desafio de projeto' foram devidamente concluídos**
