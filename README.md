@@ -19,3 +19,6 @@
 
 ## Quarto Desafio de Projeto
    No quarto desafio a instrução foi construir a modelagem lógica do modelo de OFICINA com base na modelagem conceitual criada, e a partir da modelagem lógica, criar a modelagem física do banco de dados, criando as tables, fazendo inserções e consultas aos dados utilizando joins e querys de filtragem de dados como 'where, order by e group by'. Para acessar os arquivos **mwb** e os scripts **SQL** [acesse este link](https://github.com/NikiReis/DataBaseExperience/tree/main/quartodesafio).
+
+## Quinto Desafio de Projeto
+ No quinto desafiom de projeto a instrução foi nada mais do que fazer o upload de anotações, insights e conceitos de Banco de Dados Relacionais (SQL) e Banco de Dados Não Relacionais (NoSQL) no contexto de Engenharia de Dados. Para acessar as anotações [acesse este link](https://github.com/NikiReis/DataBaseExperience/tree/main/quintodesafio).
