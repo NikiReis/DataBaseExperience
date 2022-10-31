@@ -1,5 +1,6 @@
 # Ordem de Servico
-
+Este Cenário de Modelagem Lógica foi passado durante o módulo 'Banco de Dados SQL' do Database Experience. O primeiro desafio do Bootcamp em questão se trata do cenário de E-COMMERCE, que se encontra um pouco mais abaixo desse mesmo arquivo README.
+  
 <h2> Entidades </h2>
 <div>:heavy_check_mark: Cliente ;</div>
 <div>:heavy_check_mark: Responsável ;</div>
@@ -15,6 +16,7 @@
 </div>
 
 # Cenário Universidade
+Este Cenário de Modelagem Lógica foi passado durante o módulo 'Banco de Dados SQL' do Database Experience. O primeiro desafio do Bootcamp em questão se trata do cenário de E-COMMERCE, que se encontra um pouco mais abaixo desse mesmo arquivo README.
 
 <h2> Entidades </h2>
 <div>:heavy_check_mark: Pessoa ( Aluo / Professor ) ;</div>
@@ -36,6 +38,16 @@
 
 
 # Cenário E-Commerce
+## Descrição do Desafio
+O esquema deverá ser adicionado a um repositório do Github para futura avaliação do desafio de projeto. Adicione ao Readme a descrição do projeto conceitual para fornecer o contexto sobre seu esquema.
+## Objetivo 
+ **Refine o modelo apresentado acrescentando os seguintes pontos :**
+    
+  :shipit: Cliente PJ e PF – Uma conta pode ser PJ ou PF, mas não pode ter as duas informações;
+  
+  :shipit: Pagamento – Pode ter cadastrado mais de uma forma de pagamento;
+  
+  :shipit: Entrega – Possui status e código de rastreio;
 
 <h2> Entidades </h2>
 <div>:heavy_check_mark: Cliente ( Pessoa Jurídica / Pessoa Física ) ;</div>
