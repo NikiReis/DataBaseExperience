@@ -9,10 +9,13 @@
   
   
 ## Primeiro Desafio de Projeto
-   Nessa estapa do Bootcamp foram passados três desafios de modelagem de banco de dados, sendo o desafio principal o 'Refinando um Projeto Conceitual de Banco de Dados – E-COMMERCE. Para visualizar todos os três desafios e ter acesso aos arquivos ***mwb** [acesse este link](https://github.com/NikiReis/DataBaseExperience/tree/main/primeirodesafio). 
+   Nessa estapa do Bootcamp foram passados três desafios de modelagem de banco de dados, sendo o desafio principal o 'Refinando um Projeto Conceitual de Banco de Dados – E-COMMERCE. Para visualizar todos os três desafios e ter acesso aos arquivos **mwb** [acesse este link](https://github.com/NikiReis/DataBaseExperience/tree/main/primeirodesafio). 
    
 ## Segundo Desafio de Projeto
    No segundo desafio foi a nossa vez (estudantes/alunos) de criarmos um modelo conceitual, sem a ajuda de professor orientador, com base apenas na narrativa que nos foi passada durante o video de orientação do segundo desafio. Para visualizar o desafio e ter acesso ao arquivo **mwb** [acesse este link](https://github.com/NikiReis/DataBaseExperience/tree/main/segundodesafio).
 
 ## Terceiro Desafio de Projeto
-   No terceiro desafio a instrução foi melhorar a modelagem lógica do modelo de E-COMMERCE e a partir dessa versão melhorada partir para a modelagem física do banco de dados, criando as tables, fazendo inserções e consultas aos dados utilizando joins e querys como 'where,order by, group by'. Para acessar os arquivos **mwb** e os scripts **SQL** [acesse este link](https://github.com/NikiReis/DataBaseExperience/tree/main/terceirodesafio).
+   No terceiro desafio a instrução foi construir a modelagem lógica do modelo de E-COMMERCE com base na modelagem conceitual criada, e a partir da modelagem lógica, criar a modelagem física do banco de dados, criando as tables, fazendo inserções e consultas aos dados utilizando joins e querys de filtragem de dados como 'where, order by e group by'. Para acessar os arquivos **mwb** e os scripts **SQL** [acesse este link](https://github.com/NikiReis/DataBaseExperience/tree/main/terceirodesafio).
+
+## Quarto Desafio de Projeto
+   No quarto desafio a instrução foi construir a modelagem lógica do modelo de OFICINA com base na modelagem conceitual criada, e a partir da modelagem lógica, criar a modelagem física do banco de dados, criando as tables, fazendo inserções e consultas aos dados utilizando joins e querys de filtragem de dados como 'where, order by e group by'. Para acessar os arquivos **mwb** e os scripts **SQL** [acesse este link](https://github.com/NikiReis/DataBaseExperience/tree/main/quartodesafio).
