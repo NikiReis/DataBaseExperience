@@ -60,4 +60,3 @@
 
 #### **[:heavy_check_mark:] Todos os projetos do 'primeiro desafio de projeto' foram devidamente concluídos**
 
-![Screenshot 2022-10-29 060757]()
