@@ -44,7 +44,7 @@ and entrega.data_entrega > entrega.data_prevista) ;
 
 select count(*) as quantidade_de_pix from cliente as c
 inner join pedido as p on c.id_cliente = p.id_cliente
-and enum='Concluido' inner join pagamento as pg 
+and p.status_pedido='Concluido' inner join pagamento as pg 
 where p.id_pagamento = pg.id_pagamento and pg.metodo_pagamento = 
 'Pix';
 
