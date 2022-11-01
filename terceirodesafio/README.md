@@ -36,3 +36,6 @@
     ✔️ Relação de produtos fornecedores e estoques;
     ✔️ Relação de nomes dos fornecedores e nomes dos produtos;    
 **Agora é a sua vez de ser o protagonista! Implemente o desafio sugerido pela expert e suba seu projeto para um repositório próprio, com isso, você aumentará ainda mais seu portfólio de projetos no GitHub!**
+
+## Representação do Modelo Lógico
+![Captura de tela 2022-11-01 091105](https://user-images.githubusercontent.com/69018600/199281793-9d00e46f-c335-4c85-84aa-14f4419e7a7a.png)
