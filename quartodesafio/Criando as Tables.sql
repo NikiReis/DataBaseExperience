@@ -70,7 +70,7 @@ create table mecanico_analisa_carro(
 create table estoque_contem_pecas(
 	id_estoque int not null,
 	id_peca int not null,
-	constraint fk_id_do_estoque foreign key (id_estoque) references estoque(id_estoque),
+	constraint fk_id_do_estoque foreign key (id_estoque) references estoque(idEstoque),
     constraint fk_id_da_peca foreign key (id_peca) references pecas(id_peca)
 );
 
@@ -100,8 +100,8 @@ create table cliente_solicita_os (
 create table OS_tem_Lista_de_Servicos(
 	id_ordem_servico int not null,
 	id_servico int not null,
-	constraint fk_id_ordem_de_servico_servicos foreign key (id_ordem_de_servico) references ordem_de_servico(id_OS),
-    constraint fk_id_servico_solicitado foreign key (id_servico) references servico_prestado(idservico)
+	constraint fk_id_ordem_de_servico_servicos foreign key (id_ordem_servico) references ordem_de_servico(id_OS),
+    constraint fk_id_servico_solicitado foreign key (id_servico) references servico_prestado(idServico)
 );
 
 create table servicos_mecanico(
