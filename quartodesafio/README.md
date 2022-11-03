@@ -18,3 +18,6 @@ Após a criação do esquema lógico, realize a criação do Script SQL para cri
     ✔️ Elabore perguntas que podem ser respondidas pelas consultas
     ✔️ As cláusulas podem estar presentes em mais de uma query
 **O projeto deverá ser adicionado a um repositório do Github para futura avaliação do desafio de projeto. Adicione ao Readme a descrição do projeto lógico para fornecer o contexto sobre seu esquema lógico apresentado.**
+
+### **Representação do Modelo Lógico**
+![Captura de tela 2022-11-03 093132](https://user-images.githubusercontent.com/69018600/199779086-d6c44e81-38dc-4a8f-b512-479d00c89855.png)
