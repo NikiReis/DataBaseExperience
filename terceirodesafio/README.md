@@ -38,5 +38,5 @@
 **Agora é a sua vez de ser o protagonista! Implemente o desafio sugerido pela expert e suba seu projeto para um repositório próprio, com isso, você aumentará ainda mais seu portfólio de projetos no GitHub!**
 
 ## Representação do Modelo Lógico
-![Annotation 2022-11-02 144003](https://user-images.githubusercontent.com/69018600/199574605-f2ef4729-be93-44fc-80d6-c664fc8a0e8e.png)
+![Screenshot 2022-11-02 203352](https://user-images.githubusercontent.com/69018600/199975883-736ddbc9-4a06-4513-920b-4c1416546e78.png)
 
