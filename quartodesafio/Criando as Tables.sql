@@ -49,7 +49,7 @@ create table ordem_de_servico (
 	id_OS int not null unique primary key,
 	data_emissao date not null,
 	valor_pecas float not null,
-    status enum('Concluido','Em execucao','Em análise'),
+    status_os enum('Concluido','Em execucao','Em análise'),
     data_conclusao date not null,
     valor_mao_obra float not null,
     valor_total float not null,
