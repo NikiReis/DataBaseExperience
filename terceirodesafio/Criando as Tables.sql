@@ -91,8 +91,8 @@ create table entrega(
 	id_cliente int not null,
     id_transportadora int not null,
     status_entrega enum('Entregue ao destinatario', 'Falhou ao entregar para o destinatario', 'Saiu para a entrega  ao destinatario', 'Objeto em transito, por favor aguarde', 'Objeto postado, por favor aguarde','Processando') default 'Processando',
-    data_prevista date not null,
-    data_entrega date not null,
+    data_prevista datetime not null,
+    data_entrega datetime not null,
 	
     constraint fk_id_transpotadora_entrega foreign key (id_transportadora) references transportadora(id_transportadora),
     constraint fk_entrega_para_um_cliente foreign key (id_cliente) references cliente (id_cliente)
