@@ -18,11 +18,10 @@ inner join fonecimento_produto as fp on f.id_fornecedor = fp.id_fornecedor
 inner join produto as p on fp.id_produto = p.id_produto order by f.id_fornecedor;
 
 -- quantos produtos cada fornecedor fornece para a loja
--- para corrigir 
-select count(distinct(id_fornecedor)) from fornecedor f
-inner join fornecimento_tem_produto as ftp on f.id_fornecedor = ftp.id_fornecedor
-where (select id_produto, nome_produto from produto p inner join
-fornecimento_tem_produto on p.id_produto = ftp.id_produto);
+select count(distinct(p.id_produto)) as quantidade_produto,f.id_fornecedor,
+f.nome_fornecedor,f.endereco from fornecedor f inner join 
+fonecimento_produto ftp on f.id_fornecedor = ftp.id_fornecedor inner join 
+produto p on ftp.id_produto = p.id_produto group by f.id_fornecedor;
 
 -- produtos disponíveis no estoque ordenando pelo estoque e quantidade de produto disponível
 
@@ -32,12 +31,10 @@ inner join estoque as e on etp.id_estoque = e.id_estoque
 order by e.id_estoque,etp.quantidade_produto;
 
 -- nome dos cliente em que suas entregas foram entregues com atraso
--- para corrigir
-select c.id_cliente, nome_cliente,endereco,codigo_rastreio from cliente c
-inner join entrega e on c.id_cliente = e.id_cliente and e.status_entrega = 'Entregue ao destinatario' 
-where (select t.id_transportadora,nome_transportadora from transportadora t
-inner join entrega on t.id_transportadora = entrega.id_cliente
-and entrega.data_entrega > entrega.data_prevista) ;
+select c.id_cliente, nome_cliente,c.endereco,codigo_rastreio,t.id_transportadora,
+t.nome_transportadora from cliente c inner join entrega e on c.id_cliente = e.id_cliente
+and e.status_entrega = 'Entregue ao destinatario' and e.data_entrega > e.data_prevista 
+inner join transportadora t on e.id_transportadora = t.id_transportadora;
 
 -- quantidade de clientes que pagaram o produto exclusivamente com o metodo de pagamento pix
 
