@@ -1,9 +1,11 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/69018600/192149019-59714005-f3ed-457f-83cb-de8d0422475d.png"  width = "35%" />
+  <img src="https://user-images.githubusercontent.com/69018600/200127986-e1d9f552-7c09-4580-947d-b6e5cb2acc7a.png"  width = "35%" />
 </p>
 
-# DIO Database Experience 
-  Este é o primeiro bootcamp sobre Banco de Dados da DIO para profissionais que procuram uma experiência rápida em Ciência de Dados para se aprimorar nos principais conceitos de banco de dados SQL e NoSQL. No Database Experience você vai passar por 54 horas de imersão, com experiências educacionais e mentorias exclusivas sobre modelagem de dados, SGBD, EER, arquitetura, queries entre outras.  Após gerar o seu certificado de conclusão, o seu perfil ficará disponível para as empresas parceiras da DIO que estão contratando.
+# DIO - Formação SQL Database Specialist
+  Desenvolva suas habilidades com banco de dados, aprenda como modelar uma base de dados de acordo com necessidades de negócios, aprenda a trabalhar com comandos Data Manipulation Language (DML) e Data Definition Language (DDL) para consultar e manipular seus dados. Crie projetos de soluções baseadas nas boas práticas das regras formais e explore técnicas de Recuperação e Controle de Concorrência em Banco de dados.
+
+**Observação**: O bootcamp SQL Specialist se trata de uma extensão do Database Experience, o SQL Specialist tem exatamente as mesmas atividades e desafios de código do Database Experience, mas por se tratar de uma extensão, ele contém desafios e aulas extras. O SQL Specialist sai do local em que o Experience termina e leva o estudante para técnincas e conhecimentos avançados em SQL, e por isso, se trata de um conteúdo exclusivo para assinantes da plataforma ' Dio '.
 
 **Observação**: Todos os desfios de projetos durante o Bootcamp foram realizados utilizando o SGBD **MySQL Workbench**.
   
