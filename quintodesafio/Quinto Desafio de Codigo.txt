@@ -1,0 +1,17 @@
+	No atual cenario de dados, as empresas comecam a deixar de usar apenas um tipo de banco
+de dados, seja ele o relacional(SQL) ou o NoSQL e passassam a fazer uma integracao entre os dois
+tendo os dois funcionando ao mesmo tempo, mas cada um voltado para um tipo de transacao em especifico,
+quando um se adequada melhor para o tipo de transacao a ser feita do que o outro. Isso normalmente acontece
+bastante no cenario de grandes e-commerce.
+	Banco de Dados Relacional: Banco de Dados Relacional e o tipo de banco onde pretendemos armazenar
+informacoes que tem relacoes entre si, mantendo consistencia sem duplicidade e um esquema de dados rigido.
+	Banco de Dados Nao Relacional: Surgiu como uma extensao do Banco Relacional, sem a ideia de substitui-lo,
+como se fosse uma forma enhanced. O banco nao relacional surgiu para suprir a necessidade de armazenar uma
+grande massa de dados - o que se for feito no relacional acaba afetando na performance -, dai surge o termo 
+BigData, e para armazenar dados de forma nao estruturadas, como fotos,videos,imagens etc.
+	Na busca dos dados no banco de dados nao relacional a busca e feita por chave valor, similiar a estrutura
+de dados 'dicionario' da linguagem Python.
+	No ambiente temos minimamente cinco capacidades basicas dentro de um ambiente de datalake, que sao: gestao,
+armazenamento, processamento, disponibilidade e seguranca.
+	O maior desafio atual no mundo de dados e a manipulacao dos dados, seja na parte de gestao, processamento.
+	
