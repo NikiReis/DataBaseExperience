@@ -1,2 +1,3 @@
 ## Descrição
 Este diretório e contém boa parte, se não todos, os scripts e modelagens que foram feitos durante as aulas lecionadas no Database Experience. Obs: Estes arquivos serviram apenas de estudo e prática com base nos exemplos demonstrados durante as aulas e nao substituem os desafios de código.
+ Observação: O diretório 'atividades_das_aulas/atividades' são referentes aos Modulos 1,2,3 do Database Experience. A partir do SQL Specialist este diretório 'atividades_das_aulas' será dividido por módulos em cada modulo há assuntos / tópicos diferentes que foram abordados, estes tópicos terão os seus próprios diretórios e as atividades de fixação realizadas em cada um deles.
