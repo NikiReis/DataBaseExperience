@@ -95,7 +95,6 @@ create table entrega(
     data_entrega datetime not null,
 	
     constraint fk_id_transpotadora_entrega foreign key (id_transportadora) references transportadora(id_transportadora),
-    constraint fk_entrega_para_um_cliente foreign key (id_cliente) references cliente (id_cliente)
 );
 
 create table fonecimento_produto(
