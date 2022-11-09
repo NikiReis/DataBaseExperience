@@ -32,9 +32,9 @@ order by e.id_estoque,etp.quantidade_produto;
 
 -- nome dos cliente em que suas entregas foram entregues com atraso
 select c.id_cliente, nome_cliente,c.endereco,codigo_rastreio,t.id_transportadora,
-t.nome_transportadora from cliente c inner join entrega e on c.id_cliente = e.id_cliente
-and e.status_entrega = 'Entregue ao destinatario' and e.data_entrega > e.data_prevista 
-inner join transportadora t on e.id_transportadora = t.id_transportadora;
+t.nome_transportadora from cliente c inner join pedido p on c.id_cliente = p.id_cliente
+inner join transportadora t on p.id_transportadora = t.id_transportadora inner join
+entrega e t.id_transportadora = e.id_transportadora and data_entrega > data_prevista;
 
 -- quantidade de clientes que pagaram o produto exclusivamente com o metodo de pagamento pix
 
