@@ -4,8 +4,8 @@ create procedure insert_into_employee()
 begin 
 -- Fname,Minit,Lname, Ssn, Bdate, Address, Sex, Salary, Super_Ssn, Dno
 	insert into employee values('Maria','B','Smith','123456824','1965-08-10','731-Fondren-houston-TX','F','35000.0','123456789','5');
-end ;
-delimiter %
+end %
+delimiter ;
 
 desc employee;
 
@@ -32,7 +32,7 @@ begin
     
     select * from employee where Ssn = Ssn_p;
     
-end ;
-delimiter ||
+end ||
+delimiter ;
 
 call insert_into_employee2('Joaquim','C','Diesmtricht','57849682','1995-03-11','731-Fondren-houston-TX','M','55000.0','123456789','2');
