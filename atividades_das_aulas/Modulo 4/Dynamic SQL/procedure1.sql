@@ -6,7 +6,7 @@ END CASE
 
 	!=
     
--- And this one is a CASE OPERATOR, the're completely different
+-- And this one is a CASE OPERATOR, they're completely different
 SELECT CASE 1 WHEN 1 THEN 'one'
 	WHEN 2 THEN 'two' ELSE 'more' END;
 SELECT CASE WHEN 1>0 THEN 'true' ELSE 'false' END;
