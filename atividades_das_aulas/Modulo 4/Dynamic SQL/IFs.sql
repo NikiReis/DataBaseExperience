@@ -6,7 +6,7 @@ END IF;
 	
   !=
 
--- And this one is IF Function, the're COMPLETELY DIFFERENT
+-- And this one is IF Function, they're COMPLETELY DIFFERENT
 SELECT IF(1>2,2,3);
 SELECT IF(1<2,'yes','no');
 SELECT IF(STRCMP('test','test1'),'yes','no');
