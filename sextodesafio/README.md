@@ -1,4 +1,4 @@
-# Personalizando o Banco de Dados com Índices e Procedures
+# *Personalizando o Banco de Dados com Índices e Procedures*
 
 ## Parte 1 – Criando índices em Banco de Dados 
 
