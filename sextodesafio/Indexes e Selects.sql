@@ -12,7 +12,7 @@ alter table departament add index dept_create_dt_idx(Dept_create_date);
 /* What is the department with more employees */
 select count(*) as Qtd_Pessoas,Dnumber, Dname, 
 	Dept_create_date from departament d 
-    inner join employee e on e.Dno = d.Dnumber
+    left join employee e on e.Dno = d.Dnumber
     group by Dnumber order by Qtd_Pessoas desc;
     
 /* What are the departments by City */
@@ -22,14 +22,14 @@ select Dnumber,Dname,Dlocation from
 
 /* Relation of employee by department */
 	select Dnumber,Dname,CONCAT(Fname,' ',Minit,' ',Lname) as 
-		Employee_Name from Employee e Inner Join
+		Employee_Name from Employee e Left Join
 		Departament d on e.Dno = d.Dnumber
         order by d.Dnumber desc;
     
 /* Top 5 most well payed employees */
 select Ssn,CONCAT(Fname,' ',Minit,' ',Lname) as 
     Employee_Name,Salary,Dnumber,Dname from employee e 
-    Inner Join Departament d on e.Dno = d.Dnumber
+    Left Join Departament d on e.Dno = d.Dnumber
     order by Salary desc Limit 5;
 
 /* Project's name and their respective department order by city*/
