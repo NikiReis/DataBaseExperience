@@ -1,5 +1,5 @@
-/* creating a table to set the possibles errors in a insert statment
-	activated by a 'after insert' trigger
+/* creating a table to set the possibles errors of insert statment
+	activated by an 'after insert' trigger
 */
 create table if not exists alerts_error_box(
 	Ssn char(9) not null,
@@ -9,7 +9,7 @@ create table if not exists alerts_error_box(
 
 -- before delete trigger
 /*
-creating a table to save the data of the fired employees
+creating a table to save the data of future fired employees
 */
 create table if not exists fired_employees(
 	Ssn char(9),
@@ -28,7 +28,7 @@ delimiter %%
 
 /*
 this trigger save all the data of the employee that is going to be 
-	fired into 'fired_employees' table before his data get delete 
+	fired into 'fired_employees' table before his data get deleted 
     from the active (and main) employees table.
 */
 create trigger chk_user_data before delete on employee
@@ -43,9 +43,9 @@ create trigger chk_user_data before delete on employee
 					old.Bdate,
 					old.Address,
 					old.Sex,
-                    old.Salary,
-                    old.Super_ssn,
-                    old.Dno
+                    			old.Salary,
+                    			old.Super_ssn,
+                    			old.Dno
 				);
 	end %%
 delimiter ;
@@ -65,9 +65,9 @@ select * from information_schema.triggers where trigger_schema = 'Company';
 
 -- before update trigger
 /*
-	This trigger has the objective of deny any try of updating a salary
-    of an employee to a null value, if a try of updating a salary to null is going to 
-    be done, this trigger will set the salary to a default value of 30 thousand
+	This trigger has the objective of deny any try of update salary
+    of an employee to a null value, if a try is going to be done, this trigger 
+    will set the salary to a default value of 30 thousand
     dollars, and this way dening a null value in the table
 */
 delimiter ??
@@ -85,10 +85,10 @@ drop trigger employee_salary;
 
 -- after insert 
 /*
-	This trigger will insert into alerts_error_box an error 
-    that explains that the salary of the new employee or the addres, or even them 
-    was set as null, and a update is required, this trigger will also insert the date 
-	of this error, and also the Ssn of the related employee
+	This trigger will insert into alerts_error_box an error message
+    that explains that the salary of the new employee or the address, or even them both
+    were set as null, and an update is required, this trigger will insert the date 
+	of this error has occurred, and also the Ssn of the related employee.
 */
 delimiter {}
 create trigger new_employee before insert on employee
