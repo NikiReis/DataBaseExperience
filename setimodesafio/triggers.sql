@@ -66,7 +66,7 @@ select * from information_schema.triggers where trigger_schema = 'Company';
 -- before update trigger
 /*
 	This trigger has the objective of deny any try of update salary
-    of an employee to a null value, if a try is going to be done, this trigger 
+    of e employee to a null value, if a try is going to be done, this trigger 
     will set the salary to a default value of 30 thousand
     dollars, and this way dening a null value in the table
 */
@@ -87,7 +87,7 @@ drop trigger employee_salary;
 /*
 	This trigger will insert into alerts_error_box an error message
     that explains that the salary of the new employee or the address, or even them both
-    were set as null, and an update is required, this trigger will insert the date 
+    were set as null, and a update is required, this trigger will insert the date 
 	of this error has occurred, and also the Ssn of the related employee.
 */
 delimiter {}
