@@ -15,7 +15,7 @@ show tables;
 show index from custumer;
 
 
--- simple example of how create an index in MySQL
+-- simple example of how create a index in MySQL
 -- to create an index in an existent table we have to use the
 -- alter table statement, like below
 
