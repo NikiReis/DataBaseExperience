@@ -37,7 +37,7 @@ select Pnumber,Pname,Plocation,Dname
 	from project p Inner Join departament d
     on p.Dnum = d.Dnumber order by Pnumber,Plocation;
 
-/* Relation of Employees an their dependents*/    
+/* Relation of Employees and their dependents*/    
 select Essn as ID_Employee,CONCAT(Fname,' ',Minit,' ',Lname) as 
     Employee_Name,Dependent_name,Relationship
     from dependent d Inner Join Employee e
