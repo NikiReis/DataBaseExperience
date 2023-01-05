@@ -1,0 +1,25 @@
+SHOW SESSION VARIABLES LIKE '%Isolation';
+SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ;
+SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED;
+
+SET @@autocommit = 0;
+SELECT @@autocommit;
+
+
+/*PRIMEIRA TRANSAÇÃO*/
+START TRANSACTION;
+USE TransactionExample;
+SHOW tables;
+SHOW SESSION variables LIKE '%Isolation';
+SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED;
+SHOW SESSION variables LIKE '%Isolation';
+SELECT orderStatus FROM Orders WHERE orderNumbers = 10;
+UPDATE Orders SET orderStatus = 'Em progresso' WHERE orderNumbers = 10;
+SELECT orderStatus FROM Orders WHERE orderNumbers = 10;
+
+
+
+/* SEGUNDA TRANSAÇÃO*/
+USE TransactionExample;
+START TRANSACTION;
+SELECT orderStatus FROM Orders WHERE orderNumbers = 10;
