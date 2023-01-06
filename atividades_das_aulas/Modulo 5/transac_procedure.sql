@@ -3,10 +3,11 @@ SET @@autocommit = 0;
 delimiter ?? 
 CREATE PROCEDURE sql_fail()
 BEGIN 
+	-- BETTER ERROR HANDLER DECLARATION, THIS ONE ISN'T DEPRECATED
 	DECLARE EXIT HANDLER FOR SQLEXCEPTION
-    BEGIN 
+    BEGIN
+		SHOW ERRORS LIMIT 1;
 		ROLLBACK;
-        SELECT "The transactions was ended due to an error" AS ERROR;
     END;
     START TRANSACTION;
     
