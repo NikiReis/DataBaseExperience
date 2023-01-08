@@ -4,15 +4,15 @@
 
 ### Neste desafio você irá criar visões para os seguintes cenários 
 
-      Número de empregados por departamento e localidade 
+      • Número de empregados por departamento e localidade 
 
-      Lista de departamentos e seus gerentes 
+      • Lista de departamentos e seus gerentes 
 
-      Projetos com maior número de empregados (ex: por ordenação desc) 
+      • Projetos com maior número de empregados (ex: por ordenação desc) 
 
-      Lista de projetos, departamentos e gerentes 
+      • Lista de projetos, departamentos e gerentes 
 
-      Quais empregados possuem dependentes e se são gerentes 
+      • Quais empregados possuem dependentes e se são gerentes 
 
 #### Além disso, serão definidas as permissões de acesso as views de acordo com o tipo de conta de usuários. Lembre-se que as views ficam armazaneadas no banco de dados como uma “tabela”. Assim podemos definir permissão de acesso a este item do banco de dados.  
 
@@ -31,9 +31,9 @@
 ### Exemplo de trigger para base.
 #### Entregável: 
 
-    Triggers de remoção: before delete 
+    • Triggers de remoção: before delete 
 
-    Triggers de atualização: before update 
+    • Triggers de atualização: before update 
 
 ### Remoção: 
 #### Usuários podem excluir suas contas por algum motivo. Dessa forma, para não perder as informações sobre estes usuários, crie um gatilho before remove 

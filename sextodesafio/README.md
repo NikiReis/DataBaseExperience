@@ -17,9 +17,9 @@ A criação do índice pode ser criada via ALTER TABLE ou CREATE Statement, como
 
 #### Perguntas:  
 
-    Qual o departamento com maior número de pessoas? 
-    Quais são os departamentos por cidade? 
-    Relação de empregrados por departamento 
+    • Qual o departamento com maior número de pessoas? 
+    • Quais são os departamentos por cidade? 
+    • Relação de empregrados por departamento 
 
 #### Entregável: 
 
